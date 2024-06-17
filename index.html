@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Sign Up</title>
+</head>
+<body>
+    
+    <aside>
+        <div id="odin-banner">
+            <div>ODIN PROJECT</div>
+            <img src="odin-lined.png" alt="Odin Project Logo">
+        </div>
+        <footer>Photo: Halie West @ unsplash.com</footer>
+        
+    </aside>
+    <div id="content">
+        <h1>This is a fake service. But you can still signup anyways!</h1>
+        <h2>You know you want to.</h2>
+        <form> GIMME THAT SWEET! SWEET! INFO
+            <h5> *All fields required</h5>
+            <div id="name_row">
+                <div id="info-inputs">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Jane" pattern="([A-Z]|[a-z])*" maxlength="20" required>
+                
+                </div>
+                <div id="info-inputs">
+                    <label for="">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Doe" pattern="([A-Z]|[a-z])*" maxlength="20" required>
+                    
+                </div>
+            </div>
+            <div id="contact_row">
+                <div id="info-inputs">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-za-z]{2,}"  required>
+                </div>
+                <div id="info-inputs">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="999-999-9999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  required>
+                </div>
+                
+            </div>
+            <div id="password_row">
+
+                <div id="info-inputs">
+                    <label for="">Password:</label>
+                    <input type="password"  required>
+                </div>
+                
+                <div id="info-inputs">
+                    <label for="">Confirm Password:</label>
+                    <input type="password"  required>
+                </div>
+            </div>
+
+        </form>
+        <button>Create Account</button>
+        <div id="login-link">Already have an account? <a id="link" href="https://github.com/williamod/form-page">Login</a></div>
+    </div>
+    
+    
+</body>
+</html>
+

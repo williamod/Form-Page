@@ -1,0 +1,113 @@
+@font-face {
+    font-family: odinFont;
+    src: url(Norse-Bold.otf);
+ 
+}
+
+body {
+
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    justify-content: flex-start;
+    background-image: url(background.jpg);
+    /*Halie West @ unsplash.com*/
+}
+
+h1 {
+
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    max-height: 2em;
+    width: auto;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    font-family: odinFont;
+    color: white;
+    flex-grow: 1;
+    position: relative;
+    text-align: center;
+    align-items: stretch;
+    justify-content: center;
+   
+}
+
+#odin-banner {
+    background: rgb(0 0 0 / 50%);
+    padding: 32px;
+    font-size: 3em;
+    justify-content: center;
+    
+}
+
+#content {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    flex-grow: 1;
+}
+
+form {
+    background-color: rgb(25, 25, 25);
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+
+h5 {
+    margin: 0;
+}
+
+#name_row, #contact_row, #password_row {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+#info-inputs {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: greenyellow;
+}
+
+button {
+    background-color: #596d48 ;
+    color: white;
+    padding: 12px 32px;
+    border-radius: 12px;
+    margin-left: 32px;
+    margin-top: 64px;
+}
+
+#login-link {
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+a {
+    color: #596d48;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 1em;
+}
